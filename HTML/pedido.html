@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en"html>
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible"content="IE-edge">
+      <meta name="viewport"content="width=device-width,initial-scale= 1.0">
+      <title>Haz un pedido </title>
+</head>
+<body>
+    <h1>Aquí se realiza el pedido</h1>
+
+    <form action="pedido.js">
+        <label for="Nombre">Danos tu Nombre :)</label><br>
+        <input type="text" id="nombre" name= "Nombre" placeholder="Nombre"><br><br>
+         
+        <label for="correo1">Correo electrónico</label><br>
+        <input type="email"id="correo1" name="correo1"><br><br>
+
+        <label for="numero1">Número telefonico</label><br>
+        <input type="number"id="numero1" name="numero1"> <br><br>
+
+        <p>Escoge el sabor de tu pastel</p>
+        <input type="checkbox" name="Vainilla" id="Vainilla">
+        <label for="Vainilla">Vainilla</label>
+        <input type="number" name="VainillaCuantos" id="VainillaCuantos" placeholder="¿Cuántos?"><br><br>
+        <input type="checkbox" name="Chocolate" id="Chocolate">
+        <label for="Chocolate">Chocolate</label>
+        <input type="number" name="ChocolateCuantos" id="ChocolateCuantos" placeholder="¿Cuántos?"><br><br>
+        <input type="checkbox" name="Fresa" id="Fresa">
+        <label for="Fresa">Fresa</label>
+        <input type="number" name="FresaCuantos" id="FresaCuantos" placeholder="¿Cuántos?"><br><br>
+        <input type="checkbox" name="Queso" id="Queso">
+        <label for="Queso">Queso</label>
+        <input type="number" name="QuesoCuantos" id="QuesoCuantos" placeholder="¿Cuántos?"><br><br>
+        <input type="checkbox" name="Imposible" id="Imposible">
+        <label for="Imposible">Imposible</label>
+        <input type="number" name="imposibleCuantos" id="imposibleCuantos" placeholder="¿Cuántos?"><br><br>
+
+        <p>¿Algún adorno?</p>
+        <input type="radio"id="Adorno1" name="adorno1"value=Confetti>
+        <label for="adorno1">Confetti de colores (comestible)</label><br><br>
+        <input type="radio"id="adorno2" name="adorno2"value=CremaPastelera>
+        <label for="adorno2">Crema pastelera Extra</label><br><br>
+        <input type="radio"id="Adorno3" name="Adorno3"value=brillantinacomestible>
+        <label for="adorno4">Brillantina(comestible)</label><br><br>
+
+        <input type="reset">
+        <input type="submit">
+
+    </form>
+</body>
+</html>

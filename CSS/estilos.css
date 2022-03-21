@@ -1,0 +1,348 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%
+}
+
+
+body{
+    font-family: 'open sans';
+}
+
+.container{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    color: darkblue;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+header {
+    width: 100%;
+    height: 150;
+    background: rgba(255, 255, 255, 0.8);
+    position:relative;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+nav{
+    text-align: right;
+    padding: 10px 30px 0 0;
+}
+nav > a{
+    color:rgb(27, 27, 179);
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+
+nav > a:hover, .schedule button {
+    background-color: blue;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    color: blue;
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+}
+
+nav > a:hover, .schedule button:hover {
+    background-color:darkblue;
+}
+
+.header {
+    align-items: left;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.headerNav {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 35%;
+}
+
+
+
+main .vaccine {
+    background-image: url(images/enfermero.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 900px;
+    width: 100%;
+  }
+
+.text-intro {
+    width: 35%;
+  }
+.text-intro h1 {
+    color: #1F3E72;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+  }
+.text-intro p {
+    color: rgb(116, 136, 226);
+    font-family: 'open sans';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.5em;
+  }
+
+.conten-text {
+    margin-top: 50px;
+  }
+  .conten-text img {
+    height: 1em;
+  }
+  p.conten-text {
+    color: #1F3E72;
+    font-weight: 500;
+  }
+  .conten-text span:first-of-type {
+    margin-right: 1em;
+  }
+
+.schedule {
+    margin-top: 80px;
+    height: 50px;
+  }
+.schedule img {
+    height: 1em;
+  }
+.schedule h4 {
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    display: inline;
+  }
+.schedule .date {
+    align-items: center;
+    background-color: hsla(1, 0%, 100%, 0.8);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    height: 100px;
+    width: 70%;
+  }
+.schedule table {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: auto;
+    text-align: left;
+    vertical-align: middle;
+    width: 95%;
+  }
+.schedule table th {
+    vertical-align: top;
+  }
+.schedule table th:last-child {
+    text-align: center;
+    vertical-align: middle;
+  }
+.schedule table th:last-child button{
+    width: 100%;
+    height: 30px;
+  }
+
+.logos {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    filter: grayscale(100%) opacity(60%);
+    height: 100px;
+    justify-content: space-between;
+  }
+.logos img {
+    width: 100%;
+  }
+
+.information {
+    margin-top: 50px;
+  }
+
+.vaccineReasons {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .vaccineReasons p, .vaccineBenefits p, .container-inf p, .emcontact p {
+    color: #316acc;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.5em;
+  }
+
+.vaccineBenefits {
+    align-items: flex-start;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+.vaccineBenefits ul {
+    border: solid 3px rgba(109, 123, 147, 0.2);
+    border-radius: 10px;
+    height: 360px;
+    list-style: none;
+    padding: 2.5%;
+    transition: all ease-in-out .3s;
+    width: 24%;
+  }
+.vaccineBenefits ul:hover {
+    background-color: #dfeafc;
+    border: solid 3px rgba(109, 123, 147, 0.5);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+  }
+.vaccineBenefits li {
+    margin-bottom: 1em;
+  }
+
+.benefits img{
+    height: 3em;
+  }
+
+.container-inf {
+    background-image: url(images/enfermero2.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 700px;
+    width: 100%;
+    margin-top: 0px;
+
+  }
+
+.preparationsInfo {
+    margin: 0 0 0 auto;
+    width: 40%;
+    text-align: right;
+  }
+
+  .preparationsList {
+    list-style: none;
+    padding: 1em;
+  }
+  .preparationsList li .listheader {
+    align-items: center;
+    display: flex;
+    padding: 1em 1em;
+    cursor: pointer;
+  }
+  .preparationsList li h4 {
+    flex-grow: 2;
+  }
+  .preparationsList li img {
+    background-color: #dfeafc;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    height: 15px;
+    margin-right: 1.2em;
+    padding: 5px;
+  }
+  .preparationsList li button {
+    background-color: #dfeafc;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    border: none;
+    color: #1F3E72;
+    height: 5px;
+    width: 5px;
+  }
+  .preparationsList li p {
+    display: none;
+    padding: 10px;
+    transition: all ease-in-out .3s;
+  }
+  .preparationsList li:hover p {
+    display: block;
+    padding: 1em 3em;
+  }
+  .preparationsList li:hover button {
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.3);
+    transform: rotate(180deg);
+  }
+
+  .emcontact {
+    background-image: url(images/enfermero.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+    margin-top: 200px;
+    width: 100%;
+  }
+
+.emergency {
+    width: 60%;
+  }
+
+.contactlines {
+    display: grid;
+    gap: 3%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    list-style: none;
+  }
+.contactlines li {
+    border: solid 3px rgba(109, 123, 147, 0.2);
+    border-radius: 10px;
+    padding: 10%;
+  }
+.contactlines li:hover {
+    background-color: #dfeafc;
+    border: solid 3px rgba(109, 123, 147, 0.5);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+  }
+.contactlines li button {
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    color: #2c4cca;
+    cursor: pointer;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.2em;
+    padding: .5em 1em;
+    text-decoration: none;
+    transition: all ease-in-out .3s;
+    width: 100%;
+  }
+.contactlines li button:hover {
+    background-color: #2c4cca;
+    color: white;
+  }
+.contactlines table{
+    width: 25%;
+  }
+.contactlines table img {
+    height: 20px;
+  }
+
+footer {
+    text-align: center;
+    position:relative;
+    background: #111;
+    height: 600px;
+    width: 100vw;
+    font-family: 'open sans';
+    padding-top: 0;
+    color:#dfeafc
+
+  }
